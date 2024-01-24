@@ -1,0 +1,7 @@
+query RunInput {
+  paymentCustomization {
+    metafield(namespace: "$app:payhideforb2b", key: "function-configuration") {
+      value
+    }
+  }
+}
